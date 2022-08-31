@@ -1,0 +1,106 @@
+*{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 50px;
+}
+.logo{
+    margin-bottom: 30px;
+}
+.flex-right h6{
+    margin-bottom: 0;
+}
+.flex-right p{
+    margin-top: 0;
+}
+h1{
+    font-size: 1.8rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 0.8em;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 1.8rem;
+}
+h6{
+    color: hsl(210, 10%, 33%);
+}
+button{
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin: 1rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.flex-container{
+    display: flex;
+    
+}
+.flex-right{
+    text-align: left;
+    margin-left: 3rem;
+}
+.logos img{
+    margin: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+.second{
+    justify-content: space-around;
+    align-items: center;
+}
+.ios:hover{
+    background-color: hsl(171, 82%, 56%);
+}
+.mac:hover{
+    background-color: hsl(233, 96%, 72%);
+}
+footer{
+    background-color: hsl(200, 9%, 95%);
+    padding: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-right: 1.6rem;
+}
+.links a{
+    text-decoration: none;
+    padding: 2rem;
+    color: hsl(210, 10%, 33%);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+}
+.logos2 img{
+    padding: 0.6rem;
+}
+footer a:hover{
+    color: hsl(171, 82%, 56%);
+}
