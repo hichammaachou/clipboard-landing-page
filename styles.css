@@ -62,7 +62,7 @@ button{
     margin-left: 3rem;
 }
 .logos img{
-    margin: 1.5rem;
+    margin: 1.7rem;
     margin-top: 4rem;
     margin-bottom: 4.5rem;
 }
@@ -96,11 +96,29 @@ footer{
 .links{
     display: flex;
     justify-content: space-between;
-    height: 5rem;
 }
 .logos2 img{
     padding: 0.6rem;
 }
 footer a:hover{
     color: hsl(171, 82%, 56%);
+}
+@media all and (max-width : 500px){
+ .big-img{
+    max-width: 400px;
+ }
+ .flex-container{
+    flex-direction: column;
+    align-items: center;
+ }
+ footer{
+    flex-direction: column;
+ }
+ .links{
+    flex-direction: column;
+ }
+ .flex-right{
+    text-align: center;
+ }
+
 }
